@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+	<!-- 設定此 app 的連結位置為 $hostname/， 須配合設定 standalone.xml enable-welcome-root="false" -->
+	<context-root>/</context-root>
+</jboss-web>  
