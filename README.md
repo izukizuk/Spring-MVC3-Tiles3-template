@@ -1,4 +1,7 @@
-Spring-MVC3-Tiles3-template
-===========================
+# Spring-MVC3-Tiles3-template
 
 A web template for Spring MVC 3 and Tiles 3
+===========================
+
+# Requirement
+	Install npm and bower first.

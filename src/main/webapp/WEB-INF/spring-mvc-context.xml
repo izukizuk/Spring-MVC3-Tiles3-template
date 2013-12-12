@@ -7,7 +7,9 @@
 
 	<context:component-scan base-package="com.company.project.mvc" />
 
+	<!-- 用 annotation 來進行 (controller 等等) -->
 	<mvc:annotation-driven />
+	
 	<mvc:default-servlet-handler />
 
 	<!-- Tiles 3 setting -->
@@ -29,7 +31,9 @@
 	</bean>
 
 	<!-- Declare all static resources -->
-	<mvc:resources mapping="/static/**" location="/" />
+	<!-- 所有 URL 為 static 路徑下的檔案都會對應到 webapp/resources 目錄下的檔案。 -->
+	<!-- 如此可跳過 controller，可以直接去讀取這個檔案 -->
+	<mvc:resources mapping="/static/**" location="/resources/" />
 
 	<mvc:default-servlet-handler />
 

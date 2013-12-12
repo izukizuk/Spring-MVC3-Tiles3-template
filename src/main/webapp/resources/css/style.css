@@ -1,0 +1,40 @@
+.navbar-logo-txt {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin: 0 5px 0 5px;
+	height: 72px;
+	line-height: 72px;
+	height: 72px;
+}
+
+.header {
+	height: 72px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-width: 900px;
+}
+
+.left {
+	background-color: #C3C3C3;
+	top: 94px;
+	width: 200px;
+	position: fixed;
+}
+
+.right {
+	background-color: red;
+	top: 94px;
+	left: 200px;
+	width: 100%;
+	position: absolute;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -600px; /*negative half the width */
+	width: 1200px;
+	height: 70px;
+}
