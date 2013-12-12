@@ -4,4 +4,4 @@ A web template for Spring MVC 3 and Tiles 3
 ===========================
 
 # Requirement
-	Install npm and bower first.
+	eclipse + Maven 
